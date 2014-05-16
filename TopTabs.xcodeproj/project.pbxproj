@@ -35,7 +35,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F67684751911489F005C492D = {
+		A57807981926BC5800F1BA99 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				F676848D1911489F005C492D /* main.m */,
@@ -43,8 +43,24 @@
 				F67684911911489F005C492D /* AppDelegate.m */,
 				F67684BC19114C06005C492D /* ViewController.h */,
 				F67684BD19114C06005C492D /* ViewController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A57807991926BC5D00F1BA99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				F67684891911489F005C492D /* Info.plist */,
 				F676849F1911489F005C492D /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F67684751911489F005C492D = {
+			isa = PBXGroup;
+			children = (
+				A57807981926BC5800F1BA99 /* Source */,
+				A57807991926BC5D00F1BA99 /* Resources */,
 				F676847F1911489F005C492D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -206,7 +222,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -217,7 +233,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
