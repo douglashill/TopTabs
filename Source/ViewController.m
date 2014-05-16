@@ -1,9 +1,7 @@
 //
 //  ViewController.m
-//  TopTabs
-//
-//  Created by Douglas Hill on 30/04/2014.
-//  Copyright (c) 2014 Douglas Hill. All rights reserved.
+//  Douglas Hill, May 2014
+//  https://github.com/douglashill/TopTabs
 //
 
 #import "ViewController.h"
