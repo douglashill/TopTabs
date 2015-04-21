@@ -4,7 +4,7 @@
 //  https://github.com/douglashill/TopTabs
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface ViewController : UIViewController
 
