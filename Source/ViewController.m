@@ -14,10 +14,9 @@
 	return [self initWithName:nil];
 }
 
-- (instancetype)initWithName:(NSString *)name
+- (nonnull instancetype)initWithName:(NSString *)name
 {
 	self = [super initWithNibName:nil bundle:nil];
-	if (self == nil) return nil;
 	
 	[self setTitle:name];
 	

@@ -9,6 +9,6 @@
 @interface ViewController : UIViewController
 
 /// Designated initialiser
-- (instancetype)initWithName:(NSString *)name __attribute((objc_designated_initializer));
+- (nonnull instancetype)initWithName:(nullable NSString *)name __attribute((objc_designated_initializer));
 
 @end
