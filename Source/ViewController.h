@@ -6,9 +6,13 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface ViewController : UIViewController
 
-/// Designated initialiser
-- (nonnull instancetype)initWithName:(nullable NSString *)name __attribute((objc_designated_initializer));
+- (instancetype)initWithName:(nullable NSString *)name NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithCoder:(NSCoder *)decoder NS_UNAVAILABLE;
 
 @end
+
+NS_ASSUME_NONNULL_END
