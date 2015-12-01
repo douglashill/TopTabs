@@ -4,7 +4,7 @@ This is a demonstration of an iPhone app with tabs at the top of the screen. Vie
 
 ## Status
 
-Last tested with Xcode 6.3 and the iOS 8.3 SDK.
+Last tested with Xcode 7.2 and the iOS 9.2 SDK.
 
 ## Usage
 
